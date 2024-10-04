@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;700&family=Exo:wght@400;900&display=swap');
+
+body {
+    position: relative;
+    width: 1630px;
+    height: 2466px;
+    background-image: url('./112233.png');
+}
+
+/* Frame 3 */
+.frame-3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1500px;
+    height: 320px;
+    left: 156px;
+    top: 1950px;
+    background: rgba(151, 212, 247, 0.096);
+    border: 2px solid rgba(0, 255, 255, 0.4);
+    border-radius: 2px;
+    color: #fdffe9;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.frame3-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 34px; /* Adjusted size */
+    color: #fdffe9;
+}
+
+.frame3-p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 28px; /* Adjusted size */
+    color: #98ceec;
+    text-align: justify;
+}
+
+/* Frame 4 */
+.Frame-4 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 726px;
+    height: 250px;
+    left: 804px;
+    top: 1600px;
+    background: rgba(151, 212, 247, 0.096);
+    border: 2px solid rgba(0, 255, 255, 0.4);
+    border-radius: 2px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.f4-p {
+    font-family: 'Exo', sans-serif;
+    font-size: 24px; /* Adjusted size */
+    color: #98ceec;
+    text-align:justify;
+    height: 200px;
+    width: 676px;
+    margin-left: 1%;
+    /* line-height: 55px; Center vertically within the div */
+}
+
+/* Frame 2 */
+.frame-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 575px;
+    height: 550px;
+    left: 1069px;
+    top: 750px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 2px solid rgba(0, 255, 255, 0.4);
+    border-radius: 2px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.p-2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 26px; /* Adjusted size */
+    color: #98ceec;
+    padding: 10px; /* Added padding to prevent overflow */
+}
+
+/* Frame 1 */
+.frame-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 538px;
+    height: 287px;
+    left: 1069px;
+    top: 1387px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 2px solid rgba(0, 255, 255, 0.4);
+    border-radius: 2px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.p-1 {
+    font-family: 'Exo', sans-serif;
+    font-size: 24px; /* Adjusted size */
+    color: #98ceec;
+}
+
+/* Frame 0 */
+.frame-0 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 496px;
+    height: 400px;
+    left: 1048px;
+    top: 258px;
+    background: rgba(255, 251, 251, 0.06);
+    border: 2px solid rgba(0, 255, 255, 0.4);
+    border-radius: 2px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.p-0 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px; /* Adjusted size */
+    color: #98ceec;
+}
+
+/* Main Title */
+.h1-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 128px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 811px;
+    height: 151px;
+    left: 72px;
+    top: 15px;
+    mix-blend-mode: normal;
+}
+
+.mercury-img{
+    margin-top: 22%;
+    margin-left: 12.5%;
+    height:500px;
+    width: auto;
+}
+/* Frame 11 */
+.frame-11 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 977px;
+    height: 300px;
+    left: 44px;
+    top: 1233px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 2px solid rgba(0, 255, 255, 0.4);
+    border-radius: 2px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.h1-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 128px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 811px;
+    height: 151px;
+    left: 72px;
+    top: 15px;
+    mix-blend-mode: normal;
+    margin-top: 5%;
+}
+
+.p-11 {
+    font-family: 'Exo', sans-serif;
+    font-size: 24px; /* Adjusted size */
+    color: #98ceec;
+    padding: 10px; /* Added padding */
+}
+
+/* Navbar */
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.3);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #98ceec;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.nav-link.active {
+    color: #00ffff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
